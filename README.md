@@ -3,7 +3,7 @@
 [![deno module](https://shield.deno.dev/x/denomailer)](https://deno.land/x/denomailer)
 
 > This was forked from https://github.com/manyuanrong/deno-smtp but now is much
-> more advanced!
+> more advanced! Hotfix for apple mail issue.
 
 ## Deno Deploy
 
