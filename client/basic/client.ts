@@ -273,8 +273,7 @@ export class SMTPClient {
 
         if (attachment.encoding === "base64") {
           await this.#connection.writeCmd(
-            "Content-Transfer-Encoding: base64",
-            "\r\n",
+            "Content-Transfer-Encoding: base64\r\n",
           );
 
           for (
